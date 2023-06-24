@@ -1,7 +1,7 @@
 
 # Flask Blog
 
-This project is Flask based api  to run this app inn local take these steps
+This project is Flask based API  to run this app locally take these steps
 
 
 
@@ -9,7 +9,7 @@ This project is Flask based api  to run this app inn local take these steps
 
 ## Deployment
 
-To deploy this project run create environment
+To deploy this project run Create environment
 
 ```bash
  virtualenv venv -p python3.11
