@@ -31,11 +31,11 @@ set FLASK_DEBUG=1
 
 
 ## Docker Deployment
-* NOTE: docker is needed to run with docker 
+* NOTE: Docker Desktop is needed to run with docker 
 
 create Docker Image
 ```bash
-docker build -t flask-blog .
+docker build -t flaskapp .
 ```
 run the image 
 ```bash
