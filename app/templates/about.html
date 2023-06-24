@@ -1,4 +1,23 @@
 {% extends "layout.html" %}
+
 {% block content %}
-    <h1>About Page</h1>
+    <div class="preamble">
+        <h1>Welcome to Flask Blogging</h1>
+        <p>
+            Flask Blogging is a vibrant online community dedicated to sharing and discussing ideas through the art of blogging. It serves as a platform where individuals with diverse interests and experiences can come together to express their thoughts, insights, and stories using the powerful Flask framework.
+        </p>
+        <p>
+            Whether you are a seasoned blogger, an aspiring writer, or someone who simply enjoys exploring engaging content, Flask Blogging offers a space for you to connect with like-minded individuals, discover new perspectives, and contribute to the ever-growing world of digital discourse.
+        </p>
+        <p>
+            Feel free to explore the wide range of blog posts, leave comments, engage in discussions, and start your own blog to share your unique voice with the Flask Blogging community. Together, let's create an inspiring and supportive environment for meaningful interactions and knowledge exchange.
+        </p>
+    </div>
+
+    <div class="new-post">
+        <h2>Create a New Post</h2>
+        <p>Ready to share your ideas? Start writing your new blog post now!</p>
+        <a href="{{ url_for('new_post') }}" class="btn btn-primary">Create New Post</a>
+    </div>
 {% endblock content %}
+
